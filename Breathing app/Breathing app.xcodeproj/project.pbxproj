@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0762652B2BA19D5000A74005 /* Breathing_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762652A2BA19D5000A74005 /* Breathing_appApp.swift */; };
+		0762652D2BA19D5000A74005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762652C2BA19D5000A74005 /* ContentView.swift */; };
+		0762652F2BA19D5300A74005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0762652E2BA19D5300A74005 /* Assets.xcassets */; };
+		076265322BA19D5300A74005 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076265312BA19D5300A74005 /* Preview Assets.xcassets */; };
+		0762653C2BA19D5400A74005 /* Breathing_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762653B2BA19D5400A74005 /* Breathing_appTests.swift */; };
+		076265462BA19D5400A74005 /* Breathing_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076265452BA19D5400A74005 /* Breathing_appUITests.swift */; };
+		076265482BA19D5500A74005 /* Breathing_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076265472BA19D5500A74005 /* Breathing_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		076265382BA19D5400A74005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0762651F2BA19D4F00A74005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 076265262BA19D5000A74005;
+			remoteInfo = "Breathing app";
+		};
+		076265422BA19D5400A74005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0762651F2BA19D4F00A74005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 076265262BA19D5000A74005;
+			remoteInfo = "Breathing app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		076265272BA19D5000A74005 /* Breathing app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Breathing app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0762652A2BA19D5000A74005 /* Breathing_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breathing_appApp.swift; sourceTree = "<group>"; };
+		0762652C2BA19D5000A74005 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0762652E2BA19D5300A74005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		076265312BA19D5300A74005 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		076265372BA19D5400A74005 /* Breathing appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breathing appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0762653B2BA19D5400A74005 /* Breathing_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breathing_appTests.swift; sourceTree = "<group>"; };
+		076265412BA19D5400A74005 /* Breathing appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breathing appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		076265452BA19D5400A74005 /* Breathing_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breathing_appUITests.swift; sourceTree = "<group>"; };
+		076265472BA19D5500A74005 /* Breathing_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breathing_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		076265242BA19D5000A74005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076265342BA19D5400A74005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0762653E2BA19D5400A74005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0762651E2BA19D4F00A74005 = {
+			isa = PBXGroup;
+			children = (
+				076265292BA19D5000A74005 /* Breathing app */,
+				0762653A2BA19D5400A74005 /* Breathing appTests */,
+				076265442BA19D5400A74005 /* Breathing appUITests */,
+				076265282BA19D5000A74005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		076265282BA19D5000A74005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				076265272BA19D5000A74005 /* Breathing app.app */,
+				076265372BA19D5400A74005 /* Breathing appTests.xctest */,
+				076265412BA19D5400A74005 /* Breathing appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		076265292BA19D5000A74005 /* Breathing app */ = {
+			isa = PBXGroup;
+			children = (
+				0762652A2BA19D5000A74005 /* Breathing_appApp.swift */,
+				0762652C2BA19D5000A74005 /* ContentView.swift */,
+				0762652E2BA19D5300A74005 /* Assets.xcassets */,
+				076265302BA19D5300A74005 /* Preview Content */,
+			);
+			path = "Breathing app";
+			sourceTree = "<group>";
+		};
+		076265302BA19D5300A74005 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				076265312BA19D5300A74005 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0762653A2BA19D5400A74005 /* Breathing appTests */ = {
+			isa = PBXGroup;
+			children = (
+				0762653B2BA19D5400A74005 /* Breathing_appTests.swift */,
+			);
+			path = "Breathing appTests";
+			sourceTree = "<group>";
+		};
+		076265442BA19D5400A74005 /* Breathing appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				076265452BA19D5400A74005 /* Breathing_appUITests.swift */,
+				076265472BA19D5500A74005 /* Breathing_appUITestsLaunchTests.swift */,
+			);
+			path = "Breathing appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		076265262BA19D5000A74005 /* Breathing app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0762654B2BA19D5500A74005 /* Build configuration list for PBXNativeTarget "Breathing app" */;
+			buildPhases = (
+				076265232BA19D5000A74005 /* Sources */,
+				076265242BA19D5000A74005 /* Frameworks */,
+				076265252BA19D5000A74005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Breathing app";
+			productName = "Breathing app";
+			productReference = 076265272BA19D5000A74005 /* Breathing app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		076265362BA19D5400A74005 /* Breathing appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0762654E2BA19D5500A74005 /* Build configuration list for PBXNativeTarget "Breathing appTests" */;
+			buildPhases = (
+				076265332BA19D5400A74005 /* Sources */,
+				076265342BA19D5400A74005 /* Frameworks */,
+				076265352BA19D5400A74005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				076265392BA19D5400A74005 /* PBXTargetDependency */,
+			);
+			name = "Breathing appTests";
+			productName = "Breathing appTests";
+			productReference = 076265372BA19D5400A74005 /* Breathing appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		076265402BA19D5400A74005 /* Breathing appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 076265512BA19D5500A74005 /* Build configuration list for PBXNativeTarget "Breathing appUITests" */;
+			buildPhases = (
+				0762653D2BA19D5400A74005 /* Sources */,
+				0762653E2BA19D5400A74005 /* Frameworks */,
+				0762653F2BA19D5400A74005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				076265432BA19D5400A74005 /* PBXTargetDependency */,
+			);
+			name = "Breathing appUITests";
+			productName = "Breathing appUITests";
+			productReference = 076265412BA19D5400A74005 /* Breathing appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0762651F2BA19D4F00A74005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					076265262BA19D5000A74005 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					076265362BA19D5400A74005 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 076265262BA19D5000A74005;
+					};
+					076265402BA19D5400A74005 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 076265262BA19D5000A74005;
+					};
+				};
+			};
+			buildConfigurationList = 076265222BA19D4F00A74005 /* Build configuration list for PBXProject "Breathing app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0762651E2BA19D4F00A74005;
+			productRefGroup = 076265282BA19D5000A74005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				076265262BA19D5000A74005 /* Breathing app */,
+				076265362BA19D5400A74005 /* Breathing appTests */,
+				076265402BA19D5400A74005 /* Breathing appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		076265252BA19D5000A74005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076265322BA19D5300A74005 /* Preview Assets.xcassets in Resources */,
+				0762652F2BA19D5300A74005 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076265352BA19D5400A74005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0762653F2BA19D5400A74005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		076265232BA19D5000A74005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0762652D2BA19D5000A74005 /* ContentView.swift in Sources */,
+				0762652B2BA19D5000A74005 /* Breathing_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076265332BA19D5400A74005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0762653C2BA19D5400A74005 /* Breathing_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0762653D2BA19D5400A74005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076265462BA19D5400A74005 /* Breathing_appUITests.swift in Sources */,
+				076265482BA19D5500A74005 /* Breathing_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		076265392BA19D5400A74005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 076265262BA19D5000A74005 /* Breathing app */;
+			targetProxy = 076265382BA19D5400A74005 /* PBXContainerItemProxy */;
+		};
+		076265432BA19D5400A74005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 076265262BA19D5000A74005 /* Breathing app */;
+			targetProxy = 076265422BA19D5400A74005 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		076265492BA19D5500A74005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0762654A2BA19D5500A74005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0762654C2BA19D5500A74005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Breathing app/Preview Content\"";
+				DEVELOPMENT_TEAM = 27684PNK2H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Welcome.Breathing-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0762654D2BA19D5500A74005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Breathing app/Preview Content\"";
+				DEVELOPMENT_TEAM = 27684PNK2H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Welcome.Breathing-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0762654F2BA19D5500A74005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27684PNK2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Welcome.Breathing-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breathing app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Breathing app";
+			};
+			name = Debug;
+		};
+		076265502BA19D5500A74005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27684PNK2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Welcome.Breathing-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breathing app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Breathing app";
+			};
+			name = Release;
+		};
+		076265522BA19D5500A74005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27684PNK2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Welcome.Breathing-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Breathing app";
+			};
+			name = Debug;
+		};
+		076265532BA19D5500A74005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27684PNK2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Welcome.Breathing-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Breathing app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		076265222BA19D4F00A74005 /* Build configuration list for PBXProject "Breathing app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076265492BA19D5500A74005 /* Debug */,
+				0762654A2BA19D5500A74005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0762654B2BA19D5500A74005 /* Build configuration list for PBXNativeTarget "Breathing app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0762654C2BA19D5500A74005 /* Debug */,
+				0762654D2BA19D5500A74005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0762654E2BA19D5500A74005 /* Build configuration list for PBXNativeTarget "Breathing appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0762654F2BA19D5500A74005 /* Debug */,
+				076265502BA19D5500A74005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		076265512BA19D5500A74005 /* Build configuration list for PBXNativeTarget "Breathing appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076265522BA19D5500A74005 /* Debug */,
+				076265532BA19D5500A74005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0762651F2BA19D4F00A74005 /* Project object */;
+}
